@@ -1,0 +1,20 @@
+TTDFT is hosted by the Computational Materials Physics group at University
+of Michigan (http://www-personal.umich.edu/~vikramg/), with Vikram Gavini,
+Professor of Mechanical Engineering and Materials Science and Engineering,
+as the principal investigator broadly overseeing the effort. 'TTDFT authors'
+is an all encompassing list of contributors to the TTDFT code.
+
+The code is maintained by Ian C. Lin, the principal developer, who manages the
+architecture of the code and the core functionalities under the guidance of the
+mentors.
+
+Copyright (c) 2021 The Regents of the University of Michigan
+
+    Principal developers
+    ====================
+    Ian C. Lin       - University of Michigan, USA
+
+    Mentors
+    =======
+    Vikram Gavini   - University of Michigan, USA
+    Phani Motamarri - Indian Institute of Science, India

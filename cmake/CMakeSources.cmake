@@ -1,0 +1,65 @@
+set(fem_sources
+        fem/FEM.cc
+        fem/QuadratureRule.cc)
+set(dft_sources
+        dft/solver/FunctionalRayleighQuotientSeperable.cc
+        dft/KSDFTPotential.cc
+        dft/AndersonMixing.cc
+        dft/InitialGuess.cc
+        dft/KSDFTEnergyFunctional.cc
+        dft/SeparableHamiltonian.cc
+        dft/ProjectHamiltonianSparse.cc
+        dft/solver/FunctionalRayleighQuotientSeperableNonLocal.cc
+        basis/TuckerBasis.cc
+        dft/RhoComputer.cc)
+set(eigen_sources
+        eigensolver/ChebyShevFilter.cc
+        eigensolver/EigenSolver.cc
+        eigensolver/DeviceCommUtils.cc
+        eigensolver/DeviceUtils.cu
+        eigensolver/MultCuda.cu
+        eigensolver/MultTm.cu)
+set(utils_sources
+        utils/MatUtils.cc)
+set(tensor_sources
+        tensor/TensorUtils.cc
+        tensor/Tensor3DMPI.cc
+        tensor/TuckerTensor.cc)
+set(alglib_sources
+        alglib/src/alglibinternal.cpp
+        alglib/src/alglibmisc.cpp
+        alglib/src/ap.cpp
+        alglib/src/dataanalysis.cpp
+        alglib/src/diffequations.cpp
+        alglib/src/fasttransforms.cpp
+        alglib/src/integration.cpp
+        alglib/src/interpolation.cpp
+        alglib/src/linalg.cpp
+        alglib/src/optimization.cpp
+        alglib/src/solvers.cpp
+        alglib/src/specialfunctions.cpp
+        alglib/src/statistics.cpp)
+set(other_source
+        atoms/NonLocalMap1D.cc
+        atoms/NonLocalMapManager.cc
+        atoms/NonLocalPSPData.cc
+        utils/InputParameter.cc
+        atoms/AtomInformation.cc
+        basis/BasisLocalization.cc
+        hartree/HartreeCalculator.cc
+        hartree/LinearSolver/LinearSolver.cc
+        hartree/LinearSolver/PETScLinearSolver.cc
+        hartree/LinearSolver/LinearSolverFunction.cc
+        hartree/LinearSolver/PhiLinearSolverFunction.cc
+        hartree/BoundaryValuesContainer.cc
+        hartree/PhiZoverRBoundaryValuesContainer.cc
+        tensor/Tensor3DMPIMap.cc
+        hartree/PhiMultiPoleBoundaryValuesContainer.cc
+        hartree/PhiBoundaryValuesContainer.cc
+        basis/PsiInitialGuessGnerator.cc
+        utils/FileReader.cc
+        utils/Utils.cc
+        utils/WavefunctionWriter.cc
+        ../utils/ttdft_timer.h
+        hartree/PoissonHartreePotentialSolver.cc
+        blas_lapack/clinalg.cc)

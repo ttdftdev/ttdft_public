@@ -1,0 +1,151 @@
+# FEM information
+numEleX=10
+numEleY=10
+numEleZ=10
+
+number elements of nonlocal X=4
+number elements of nonlocal Y=4
+number elements of nonlocal Z=4
+
+nonlocal radius delta x=2.7937501
+nonlocal radius delta y=2.7937501
+nonlocal radius delta z=2.7937501
+#2.7937501 #3.82207510199999 #3.95096#2.7937501 #3.950958900000000#3.95096 #3.822075101999999 #3.95096 #2.7937501 #3.96022086 #3.5641987614
+
+quadrtureRule=6pt
+quadRuleElectro=8pt
+eleType=4
+meshType=uniform
+
+# the options are only used when "meshType=adaptive"
+innerElements=10
+innerDomainSize=10
+coarsing ratio=2.0
+
+# if "meshType=adaptive", domain start and end will be overwritten based on the coarsing ratio
+domainStart=-16.0
+domainEnd=16.0
+domainElectroStart=-16.0
+domainElectroEnd=16.0
+
+# smearing temperature for fermi smearing
+smearing temperature=500
+
+decomposition rank rho x=15
+decomposition rank rho y=15
+decomposition rank rho z=15
+
+decomposition rank veff x=15
+decomposition rank veff y=15
+decomposition rank veff z=15
+
+rankNloc=10
+
+rankEnergy=20
+
+tucker rank X={5}
+tucker rank Y={5}
+tucker rank Z={5}
+
+# using initial guess: 0 use hydrogen atom, 1 use atom 3d data, 2 use atom radius data
+using initial guess files for electron density=radial
+initial guess electron density fem x filename=femRhoNodalR3X.txt
+initial guess electron density fem y filename=femRhoNodalR3Y.txt
+initial guess electron density fem z filename=femRhoNodalR3Z.txt
+initial guess 3d electron density filename=rhoNodalR3.txt
+initial guess electron density radius filename=Density_AT0
+
+# using initial guess: 0 use hydrogen atom, 1 use atom 3d data, 2 use atom radius data
+using initial guess files for wavefunction=0
+initial guess wavefunction fem x filename=
+initial guess wavefunction fem y filename=
+initial guess wavefunction fem z filename=
+initial guess 3d wavefunction filename=
+initial guess wavefunction radius filename=
+
+number of additional elements=2
+hartree domain coarsing factor=1.5
+hartree mesh type=adaptive
+hartree domain start x=-18
+hartree domain end x=18
+hartree domain start y=-18
+hartree domain end y=18
+hartree domain start z=-18
+hartree domain end z=18
+poisson omega file=omegak35_1e8
+poisson alpha file=alphak35_1e8
+poisson Asquare=4.042164335415609e-05
+
+output final electron density=0
+output which rank={0, 1, 2, 3, 4}
+
+# method used for obtaining Hartree potential
+# 0: use Poisson's solver
+# 1: use direct integration with kernel expansion
+#    need to check if the parameter files are correctly set
+#which using kernel expansion={0}
+
+# omega file, alpha file, and Asquare are set only when "using kernel expansion=1"
+omega file=alphak35_1e8
+alpha file=omegak35_1e8
+Asquare=4.042164335415609e-05
+
+# "Poisson solver tolerance" and "max Poisson solver iteration" are valid only when "using kernel expansion=0"
+Poisson solver tolerance=1.0e-3
+max Poisson solver iteration=20
+
+# 0: use Petsc solver for solving the projected Hamiltonian
+# 1: use Chebyshev filter technique for solving the projected Hamiltonian
+using Chebyshev filter=1
+
+max iteration steps for Lanczos iteration=10
+polynomial degree for Chebyshev filter=20
+chebyshev restart times first=10
+chebyshev restart times others=12
+is calculation restart=1
+# start from rank 0 means rank = {5, 10, 15}, start from rank 5
+start from rank index=0
+start from scf iter=10
+max iteration steps for total SCF iteration=15
+
+# mixing constant and history steps being stored for Anderson mixing scheme
+alpha=0.5
+history=20
+
+SCF tolerance=5.0e-7
+
+# will the localization technique be used
+tucker basis localization=0
+chebyshev filtered wavefunction localization=0
+
+# is the energy break-apart be computed and print
+is break apart energies=1
+
+# indicate the system name, should match the name in the class AtomInformation
+system=dimerAl
+
+# if tuckerRankX*tuckerRankY*tuckerRankZ is smaller than the number of eigenvalues requested, only
+# tuckerRankX*tuckerRankY*tuckerRankZ eigenvalues will be computed
+number eigenvalues=10
+
+# TEMP VARIABLES STARTS FROM HERE
+using fixed 1d basis=0
+#start copying fixed basis at=5
+#copy interval=10
+largest fixed basis checking size={3}
+norm of electron density difference tolerance for fixed basis={1.0e-2}
+# mixing shceme: none, simple, anderson
+mixing scheme for 1d=anderson
+scf tol for 1d=1.0e-8
+scf max iter for 1d=40
+scf alpha for 1d=0.8
+scf history size for 1d=15
+printing out basis functions=0
+#using input file as fixed basis function=0
+#which rank number using input fixed basis={0,1,2,3}
+input fixed basis x=
+input fixed basis y=
+input fixed basis z=
+
+using block technique=0
+number blocks=4

@@ -1,0 +1,115 @@
+## FEM information & rank convergence parameters
+numEleX=40
+numEleY=40
+numEleZ=40
+
+number elements of nonlocal X=6
+number elements of nonlocal Y=6
+number elements of nonlocal Z=6
+
+nonlocal radius delta x=2.7937501
+nonlocal radius delta y=2.7937501
+nonlocal radius delta z=2.7937501
+
+quadrtureRule=10pt
+quadRuleElectro=14pt
+eleType=5
+meshType=uniform
+
+domainStart=-16.0
+domainEnd=16.0
+domainElectroStart=-16.0
+domainElectroEnd=16.0
+
+# smearing temperature for fermi smearing
+smearing temperature=500
+
+decomposition rank rho x=40
+decomposition rank rho y=40
+decomposition rank rho z=40
+
+decomposition rank veff x=50
+decomposition rank veff y=50
+decomposition rank veff z=50
+
+rankNloc=25
+
+rankEnergy=20
+
+tucker rank X={40}
+tucker rank Y={40}
+tucker rank Z={40}
+
+# indicate the system name, should match the name in the class AtomInformation
+system=shell1
+
+## initialization
+# using radia data from PSP for initial guess
+using initial guess files for electron density=radial
+
+# initializing wavfunctions
+using initial guess files for wavefunction=0
+
+## parameters for computing hartree potential
+# method used for obtaining Hartree potential
+which using kernel expansion={0}
+
+# omega file, alpha file, and Asquare used for computing Hartree potential with kernel expansion
+omega file=alphak35_1e8
+alpha file=omegak35_1e8
+Asquare=4.042164335415609e-05
+
+## ChFSI parameters
+polynomial degree for Chebyshevfilter=20
+
+# SCF paremeters
+# mixing constant and history steps being stored for Anderson mixing scheme
+alpha=0.5
+history=10
+SCF tolerance=5.0e-7
+max iteration steps for total SCF iteration=50
+number eigenvalues=24
+
+
+
+##################################
+## Danger Zone, Developers only ##
+##################################
+# 0: use Petsc solver for solving the projected Hamiltonian
+# 1: use Chebyshev filter technique for solving the projected Hamiltonian
+using Chebyshev filter=1
+# will the localization technique be used
+tucker basis localization=0
+chebyshev filtered wavefunction localization=0
+max iteration steps for Lanczos iteration=20
+chebyshev restart times first=10
+chebyshev restart times others=12
+is calculation restart=0
+# start from rank 0 means rank = {5, 10, 15}, start from rank 5
+start from rank index=5
+start from scf iter=5
+
+# is the energy break-apart be computed and print
+is break apart energies=0
+
+# TEMP VARIABLES STARTS FROM HERE
+using fixed 1d basis=1
+#start copying fixed basis at=5
+#copy interval=10
+largest fixed basis checking size={0}
+norm of electron density difference tolerance for fixed basis={1.0e-2}
+# mixing shceme: none, simple, anderson
+mixing scheme for 1d=anderson
+scf tol for 1d=1.0e-8
+scf max iter for 1d=40
+scf alpha for 1d=0.8
+scf history size for 1d=15
+printing out basis functions=0
+#using input file as fixed basis function=0
+#which rank number using input fixed basis={0,1,2,3}
+input fixed basis x=
+input fixed basis y=
+input fixed basis z=
+
+using block technique=0
+number blocks=4

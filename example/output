@@ -1,0 +1,1930 @@
+====================printing out the parameters====================
+number elements X: 40
+number elements Y: 40
+number elements Z: 40
+number nonlocal elements X: 6
+number nonlocal elements Y: 6
+number nonlocal elements Z: 6
+nonlocal radius delta x: 2.79375
+nonlocal radius delta y: 2.79375
+nonlocal radius delta z: 2.79375
+initial guess used: 3
+quadrature rule: 10pt
+electro quadrature rule: 14pt
+number nodes per element (element type): 5
+Kohn-Sham domain: (-16, 16)
+using kernel expansion at: 0
+omega file: alphak35_1e8
+alpha file: omegak35_1e8
+Asquare: 4.04216e-05
+Kernel expansion integration domain: (-16, 16)
+mesh type: uniform
+smearing temperature: 500
+Anderson mixnig coefficient alpha: 0.5
+using Chebyshev filter: 1
+Chebyshev polynomial degree: 20
+max Lanczos iteration: 20
+decomposition rank for SE rho: (40, 40, 40)
+decomposition rank for effective potential Veff: (50, 50, 50)
+Tucker ranks X: { 40 }
+Tucker ranks Y: { 40 }
+Tucker ranks Z: { 40 }
+decomposition rank for nonlocal fem: 25
+max number of iterations for SCF: 50
+tolerance for SCF: 5e-07
+mixing coefficient for Anderson: 0.5
+mixing history steps for Anderson: 10
+system: shell1
+number of eigenvalues to be computed: 24
+=================end of printing out the parameters=================
+Atom Information:
+num atom type: 1, num atoms: 13, num electrons: 39
+lmax: 2
+atom type 0
+linear nodes:
+(-16.00, -15.20, -14.40, -13.60, -12.80, -12.00, -11.20, -10.40, -9.60, -8.80, -8.00, -7.20, -6.40, -5.60, -4.80, -4.00, -3.20, -2.40, -1.60, -0.80, 0.00, 0.80, 1.60, 2.40, 3.20, 4.00, 4.80, 5.60, 6.40, 7.20, 8.00, 8.80, 9.60, 10.40, 11.20, 12.00, 12.80, 13.60, 14.40, 15.20, 16.00)
+global nodes:
+(-16.00, -15.80, -15.60, -15.40, -15.20, -15.00, -14.80, -14.60, -14.40, -14.20, -14.00, -13.80, -13.60, -13.40, -13.20, -13.00, -12.80, -12.60, -12.40, -12.20, -12.00, -11.80, -11.60, -11.40, -11.20, -11.00, -10.80, -10.60, -10.40, -10.20, -10.00, -9.80, -9.60, -9.40, -9.20, -9.00, -8.80, -8.60, -8.40, -8.20, -8.00, -7.80, -7.60, -7.40, -7.20, -7.00, -6.80, -6.60, -6.40, -6.20, -6.00, -5.80, -5.60, -5.40, -5.20, -5.00, -4.80, -4.60, -4.40, -4.20, -4.00, -3.80, -3.60, -3.40, -3.20, -3.00, -2.80, -2.60, -2.40, -2.20, -2.00, -1.80, -1.60, -1.40, -1.20, -1.00, -0.80, -0.60, -0.40, -0.20, 0.00, 0.20, 0.40, 0.60, 0.80, 1.00, 1.20, 1.40, 1.60, 1.80, 2.00, 2.20, 2.40, 2.60, 2.80, 3.00, 3.20, 3.40, 3.60, 3.80, 4.00, 4.20, 4.40, 4.60, 4.80, 5.00, 5.20, 5.40, 5.60, 5.80, 6.00, 6.20, 6.40, 6.60, 6.80, 7.00, 7.20, 7.40, 7.60, 7.80, 8.00, 8.20, 8.40, 8.60, 8.80, 9.00, 9.20, 9.40, 9.60, 9.80, 10.00, 10.20, 10.40, 10.60, 10.80, 11.00, 11.20, 11.40, 11.60, 11.80, 12.00, 12.20, 12.40, 12.60, 12.80, 13.00, 13.20, 13.40, 13.60, 13.80, 14.00, 14.20, 14.40, 14.60, 14.80, 15.00, 15.20, 15.40, 15.60, 15.80, 16.00)
+C_lm: 4.446330309224434
+C_lm: 12.78679681482216
+C_lm: 12.78679681527379
+C_lm: 12.78679681444345
+using initial guesses from superposition of single atoms with radius data.
+************************************
+       Entering Rank 40
+************************************
+====================================
+       Entering SCF 0
+====================================
+upperBoundUnWantedSpectrum is 3.672375123723521272e+01.
+lowerBoundUnWantedSpectrum is 0.000000000000000000e+00.
+lowerBoundWantedSpectrum is -5.606111647576304050e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -5.606111647946486753e-01
+1th e-vals:     -4.654871490771851361e-01
+2th e-vals:     -4.629281910665583588e-01
+3th e-vals:     -4.593616472471555578e-01
+4th e-vals:     -3.555496965314307034e-01
+5th e-vals:     -3.529711579112914110e-01
+6th e-vals:     -3.446508065088023098e-01
+7th e-vals:     -3.387026933195141365e-01
+8th e-vals:     -3.296890727204484506e-01
+9th e-vals:     -3.201560236769301349e-01
+10th e-vals:    -2.485890962628069245e-01
+11th e-vals:    -2.403601054219783317e-01
+12th e-vals:    -2.309159431204986512e-01
+13th e-vals:    -2.249653449198779909e-01
+14th e-vals:    -2.152432616334263860e-01
+15th e-vals:    -2.033984481274093425e-01
+16th e-vals:    -1.803733475595908631e-01
+17th e-vals:    -1.680620294497398026e-01
+18th e-vals:    -1.547046585043521383e-01
+19th e-vals:    -1.262714295730360814e-01
+20th e-vals:    -1.099908073500513034e-01
+21th e-vals:    -9.603871499505697851e-02
+22th e-vals:    -6.502633293099324696e-02
+23th e-vals:    -3.735379419122267231e-02
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+upperBoundUnWantedSpectrum is 3.672375123723521272e+01.
+lowerBoundUnWantedSpectrum is -3.735379419122267231e-02.
+lowerBoundWantedSpectrum is -5.606111647946486753e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -5.626367686238076260e-01
+1th e-vals:     -4.686520369809017983e-01
+2th e-vals:     -4.685921798803221461e-01
+3th e-vals:     -4.684784696817563820e-01
+4th e-vals:     -3.612751016186941388e-01
+5th e-vals:     -3.612086519033583798e-01
+6th e-vals:     -3.609079896013951405e-01
+7th e-vals:     -3.601085154599696914e-01
+8th e-vals:     -3.593164942541600682e-01
+9th e-vals:     -3.340831326473295282e-01
+10th e-vals:    -2.612967326192981443e-01
+11th e-vals:    -2.566293598929600406e-01
+12th e-vals:    -2.541774788460723355e-01
+13th e-vals:    -2.412603903320595655e-01
+14th e-vals:    -2.409154346650876910e-01
+15th e-vals:    -2.395234015468878097e-01
+16th e-vals:    -2.382561501138281412e-01
+17th e-vals:    -2.347210191294525072e-01
+18th e-vals:    -2.321453158378778414e-01
+19th e-vals:    -2.134902306852056730e-01
+20th e-vals:    -1.606715194465744567e-01
+21th e-vals:    -1.575725035265741203e-01
+22th e-vals:    -1.408542906167596642e-01
+23th e-vals:    -1.230884199053792899e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 1
+--------------------------------------------
+upperBoundUnWantedSpectrum is 3.672375123723521272e+01.
+lowerBoundUnWantedSpectrum is -1.230884199053792899e-01.
+lowerBoundWantedSpectrum is -5.626367686238076260e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -5.626492306405721511e-01
+1th e-vals:     -4.686965416950109042e-01
+2th e-vals:     -4.686896393201242517e-01
+3th e-vals:     -4.686823824373848035e-01
+4th e-vals:     -3.614983796201815536e-01
+5th e-vals:     -3.614857812929886949e-01
+6th e-vals:     -3.614833558859797957e-01
+7th e-vals:     -3.614750737656797774e-01
+8th e-vals:     -3.614140058299332159e-01
+9th e-vals:     -3.344661656049203735e-01
+10th e-vals:    -2.626356127201328050e-01
+11th e-vals:    -2.621505932486309365e-01
+12th e-vals:    -2.614509082731588663e-01
+13th e-vals:    -2.418246731181219189e-01
+14th e-vals:    -2.417306954908838013e-01
+15th e-vals:    -2.414748227239981171e-01
+16th e-vals:    -2.408176916728786698e-01
+17th e-vals:    -2.406225358708967144e-01
+18th e-vals:    -2.402826166364532834e-01
+19th e-vals:    -2.367997034091931519e-01
+20th e-vals:    -1.666586743348315025e-01
+21th e-vals:    -1.660871207924277670e-01
+22th e-vals:    -1.620129124339927396e-01
+23th e-vals:    -1.534886649267850900e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 2
+--------------------------------------------
+the iteration converged at step 2.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -2.355679392072180245e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999623371377266e-01
+Occupancy Factor 11     9.999999488384336832e-01
+Occupancy Factor 12     9.999999204110975315e-01
+Occupancy Factor 13     9.811357231045596539e-01
+Occupancy Factor 14     9.800052698344577928e-01
+Occupancy Factor 15     9.765806043125321301e-01
+Occupancy Factor 16     9.649561177213312746e-01
+Occupancy Factor 17     9.605408635521044403e-01
+Occupancy Factor 18     9.515497692612252534e-01
+Occupancy Factor 19     6.852318206271221790e-01
+Occupancy Factor 20     1.257927179315211361e-19
+Occupancy Factor 21     8.767797899312919194e-20
+Occupancy Factor 22     6.689935099682958266e-21
+Occupancy Factor 23     3.071865999463549770e-23
+=====energy output in Hartree====
+band energy: -1.2922334558100722e+01
+ground state energy : -2.7492282234363024e+01
+ground state energy per atom : -2.1147909411048480e+00
+=====error computation=====
+square L2 diff norm: 5.753273812789324581e-02
+relative error: 1.000000000000000000e+03
+charge out: 3.899965357504488139e+01
+====================================
+        End of SCF 0
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+       Entering SCF 1
+====================================
+upperBoundUnWantedSpectrum is 4.827431257896887122e+01.
+lowerBoundUnWantedSpectrum is -1.534886649267850900e-01.
+lowerBoundWantedSpectrum is -5.626492306405721511e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -3.888231086864293307e-01
+1th e-vals:     -3.348874924083528604e-01
+2th e-vals:     -3.330135312517969459e-01
+3th e-vals:     -3.315269688419614780e-01
+4th e-vals:     -2.615376671741140857e-01
+5th e-vals:     -2.606093151531322927e-01
+6th e-vals:     -2.595949266167918990e-01
+7th e-vals:     -2.583734382000112961e-01
+8th e-vals:     -2.580106703529770340e-01
+9th e-vals:     -2.046298193316390956e-01
+10th e-vals:    -1.975761532159787115e-01
+11th e-vals:    -1.969802313703136187e-01
+12th e-vals:    -1.955451012227619467e-01
+13th e-vals:    -1.474639161714417224e-01
+14th e-vals:    -1.469096714692365024e-01
+15th e-vals:    -1.462203799764538459e-01
+16th e-vals:    -1.449667493737157309e-01
+17th e-vals:    -1.191451255979964069e-01
+18th e-vals:    -1.169246502086403738e-01
+19th e-vals:    -1.155578898674668731e-01
+20th e-vals:    -8.650667515634570537e-02
+21th e-vals:    -8.476017410270081376e-02
+22th e-vals:    -7.505034204395381880e-02
+23th e-vals:    -6.574486430672060733e-02
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+upperBoundUnWantedSpectrum is 4.827431257896887122e+01.
+lowerBoundUnWantedSpectrum is -6.574486430672060733e-02.
+lowerBoundWantedSpectrum is -3.888231086864293307e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -3.888326559797669613e-01
+1th e-vals:     -3.348982370907532813e-01
+2th e-vals:     -3.330341230058883051e-01
+3th e-vals:     -3.315446401319092629e-01
+4th e-vals:     -2.618076769242617119e-01
+5th e-vals:     -2.608386923446189276e-01
+6th e-vals:     -2.602252501753547498e-01
+7th e-vals:     -2.586831137157387661e-01
+8th e-vals:     -2.583456218937299487e-01
+9th e-vals:     -2.066374721836576334e-01
+10th e-vals:    -1.991560784513412841e-01
+11th e-vals:    -1.985714312251745106e-01
+12th e-vals:    -1.970816129179120413e-01
+13th e-vals:    -1.519038961659301412e-01
+14th e-vals:    -1.511695966355150744e-01
+15th e-vals:    -1.505088141958870473e-01
+16th e-vals:    -1.491720070702886036e-01
+17th e-vals:    -1.329109648844277736e-01
+18th e-vals:    -1.312350822858563137e-01
+19th e-vals:    -1.301197345950387829e-01
+20th e-vals:    -9.907034109979787062e-02
+21th e-vals:    -9.799685987902927164e-02
+22th e-vals:    -9.447362429577249587e-02
+23th e-vals:    -9.093082834888301103e-02
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 1
+--------------------------------------------
+the iteration converged at step 1.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.286089570954914163e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     1.000000000000000000e+00
+Occupancy Factor 11     1.000000000000000000e+00
+Occupancy Factor 12     1.000000000000000000e+00
+Occupancy Factor 13     9.999995919682953538e-01
+Occupancy Factor 14     9.999993512213712910e-01
+Occupancy Factor 15     9.999990152296894808e-01
+Occupancy Factor 16     9.999977091739248314e-01
+Occupancy Factor 17     9.380184784689666877e-01
+Occupancy Factor 18     8.400405158426456076e-01
+Occupancy Factor 19     7.219453256890724369e-01
+Occupancy Factor 20     7.910180807004121151e-09
+Occupancy Factor 21     4.015626987298514715e-09
+Occupancy Factor 22     4.339151799649296315e-10
+Occupancy Factor 23     4.631176472337883229e-11
+=====energy output in Hartree====
+band energy: -8.8425306655455174e+00
+ground state energy : -2.7753094902916523e+01
+ground state energy per atom : -2.1348534540705018e+00
+=====error computation=====
+square L2 diff norm: 1.941566626745785118e-01
+relative error: 9.486759459624077503e-03
+charge out: 3.899964910160260700e+01
+====================================
+        End of SCF 1
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+       Entering SCF 2
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -9.093082834888301103e-02.
+lowerBoundWantedSpectrum is -3.888326559797669613e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.793549273854644799e-01
+1th e-vals:     -4.022613567918940647e-01
+2th e-vals:     -4.021319851382783583e-01
+3th e-vals:     -4.013949679611842902e-01
+4th e-vals:     -3.110644872722793108e-01
+5th e-vals:     -3.110505653394176617e-01
+6th e-vals:     -3.106870212875470494e-01
+7th e-vals:     -3.102031754825367860e-01
+8th e-vals:     -3.101339893725806873e-01
+9th e-vals:     -2.785546794964867123e-01
+10th e-vals:    -2.316291833810637246e-01
+11th e-vals:    -2.309820652449564027e-01
+12th e-vals:    -2.309104936269175956e-01
+13th e-vals:    -1.967921815396537766e-01
+14th e-vals:    -1.966053153621359073e-01
+15th e-vals:    -1.963778243792382028e-01
+16th e-vals:    -1.962067304102519671e-01
+17th e-vals:    -1.934577000076303510e-01
+18th e-vals:    -1.930106133742683083e-01
+19th e-vals:    -1.925916187273996882e-01
+20th e-vals:    -1.376027022073968709e-01
+21th e-vals:    -1.370702269493314640e-01
+22th e-vals:    -1.368893712518842454e-01
+23th e-vals:    -1.357344352594929693e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.901516527922660071e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999957966956e-01
+Occupancy Factor 11     9.999999999936746153e-01
+Occupancy Factor 12     9.999999999933821826e-01
+Occupancy Factor 13     9.851358377139080025e-01
+Occupancy Factor 14     9.833050166774428558e-01
+Occupancy Factor 15     9.807751429517221897e-01
+Occupancy Factor 16     9.786283094539879324e-01
+Occupancy Factor 17     8.897249206543345057e-01
+Occupancy Factor 18     8.588264371843593592e-01
+Occupancy Factor 19     8.236043353813762291e-01
+Occupancy Factor 20     3.863148934810291440e-15
+Occupancy Factor 21     2.759909383707676258e-15
+Occupancy Factor 22     2.462010807941873531e-15
+Occupancy Factor 23     1.187177336529545663e-15
+=====energy output in Hartree====
+band energy: -1.0957341834623053e+01
+ground state energy : -2.6932965719312744e+01
+ground state energy per atom : -2.0717665937932881e+00
+=====error computation=====
+square L2 diff norm: 2.053271012448472654e-01
+relative error: 2.955090905978896912e-02
+charge out: 3.899964594148175223e+01
+====================================
+        End of SCF 2
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+       Entering SCF 3
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.357344352594929693e-01.
+lowerBoundWantedSpectrum is -4.793549273854644799e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.861159536064987297e-01
+1th e-vals:     -4.046088363748463479e-01
+2th e-vals:     -4.044371647742306397e-01
+3th e-vals:     -4.040659638723483882e-01
+4th e-vals:     -3.112565349684257576e-01
+5th e-vals:     -3.108885239873778183e-01
+6th e-vals:     -3.107612273618324261e-01
+7th e-vals:     -3.105028564683460224e-01
+8th e-vals:     -3.103201565120538574e-01
+9th e-vals:     -2.839662279903940045e-01
+10th e-vals:    -2.300488193364489953e-01
+11th e-vals:    -2.298487862293872863e-01
+12th e-vals:    -2.295866966957321453e-01
+13th e-vals:    -1.969557222576990008e-01
+14th e-vals:    -1.967565889168529647e-01
+15th e-vals:    -1.966207455835519147e-01
+16th e-vals:    -1.957547066309099637e-01
+17th e-vals:    -1.955691351384882537e-01
+18th e-vals:    -1.953519814405511590e-01
+19th e-vals:    -1.950589204880027738e-01
+20th e-vals:    -1.367762271670961427e-01
+21th e-vals:    -1.366563284817416679e-01
+22th e-vals:    -1.361035874690750824e-01
+23th e-vals:    -1.350700748817728614e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.918197555282905864e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999672974926e-01
+Occupancy Factor 11     9.999999999628939040e-01
+Occupancy Factor 12     9.999999999562143582e-01
+Occupancy Factor 13     9.624431849168465503e-01
+Occupancy Factor 14     9.576233690325697268e-01
+Occupancy Factor 15     9.540019028317543448e-01
+Occupancy Factor 16     9.230919763861717975e-01
+Occupancy Factor 17     9.143481810445442948e-01
+Occupancy Factor 18     9.029794991374351376e-01
+Occupancy Factor 19     8.855118867642702840e-01
+Occupancy Factor 20     7.993405944363299710e-16
+Occupancy Factor 21     7.410477824299569283e-16
+Occupancy Factor 22     5.226863014764101743e-16
+Occupancy Factor 23     2.721263620129986534e-16
+=====energy output in Hartree====
+band energy: -1.1001210845662634e+01
+ground state energy : -2.6848226517003251e+01
+ground state energy per atom : -2.0652481936156346e+00
+=====error computation=====
+square L2 diff norm: 5.732570247658303614e-02
+relative error: 3.146300455457414283e-03
+charge out: 3.899964546599805715e+01
+====================================
+        End of SCF 3
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+       Entering SCF 4
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.350700748817728614e-01.
+lowerBoundWantedSpectrum is -4.861159536064987297e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.794426100970369253e-01
+1th e-vals:     -3.985159690713236946e-01
+2th e-vals:     -3.983389208009173177e-01
+3th e-vals:     -3.981695123051747220e-01
+4th e-vals:     -3.056513049835787865e-01
+5th e-vals:     -3.052860959408431052e-01
+6th e-vals:     -3.052593252849475358e-01
+7th e-vals:     -3.052207342404500978e-01
+8th e-vals:     -3.051139475584140337e-01
+9th e-vals:     -2.789868338877988796e-01
+10th e-vals:    -2.258647178281140144e-01
+11th e-vals:    -2.256762023344242862e-01
+12th e-vals:    -2.256080787892693895e-01
+13th e-vals:    -1.924277021502596163e-01
+14th e-vals:    -1.922705623790018359e-01
+15th e-vals:    -1.921731882796293422e-01
+16th e-vals:    -1.901488487509907788e-01
+17th e-vals:    -1.900778751055826055e-01
+18th e-vals:    -1.898998697444260197e-01
+19th e-vals:    -1.898534417359388216e-01
+20th e-vals:    -1.329301275020711437e-01
+21th e-vals:    -1.328353053286618901e-01
+22th e-vals:    -1.323033229324115656e-01
+23th e-vals:    -1.316818340843718960e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.865970592819037877e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999830286868e-01
+Occupancy Factor 11     9.999999999808828477e-01
+Occupancy Factor 12     9.999999999800424089e-01
+Occupancy Factor 13     9.754537331155508362e-01
+Occupancy Factor 14     9.729619887286301561e-01
+Occupancy Factor 15     9.712962765223480677e-01
+Occupancy Factor 16     9.040565458621316886e-01
+Occupancy Factor 17     9.000976006256070638e-01
+Occupancy Factor 18     8.895241979786440156e-01
+Occupancy Factor 19     8.866096572231233486e-01
+Occupancy Factor 20     1.906790625541852240e-15
+Occupancy Factor 21     1.795954395223802524e-15
+Occupancy Factor 22     1.283464489648989964e-15
+Occupancy Factor 23     8.668075706477042270e-16
+=====energy output in Hartree====
+band energy: -1.0797615998886917e+01
+ground state energy : -2.6770725195271595e+01
+ground state energy per atom : -2.0592865534824303e+00
+=====error computation=====
+square L2 diff norm: 5.545947792937175325e-02
+relative error: 2.886645852848935320e-03
+charge out: 3.899964360105714434e+01
+====================================
+        End of SCF 4
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+       Entering SCF 5
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.316818340843718960e-01.
+lowerBoundWantedSpectrum is -4.794426100970369253e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.755749413320007335e-01
+1th e-vals:     -3.963150651793073687e-01
+2th e-vals:     -3.962432483095432167e-01
+3th e-vals:     -3.961386895052582124e-01
+4th e-vals:     -3.043446021816627600e-01
+5th e-vals:     -3.042845065532717164e-01
+6th e-vals:     -3.042723779514359683e-01
+7th e-vals:     -3.041687249174015450e-01
+8th e-vals:     -3.041027398169494078e-01
+9th e-vals:     -2.760029585206091873e-01
+10th e-vals:    -2.253230785519545754e-01
+11th e-vals:    -2.252413646211222642e-01
+12th e-vals:    -2.252048149847880043e-01
+13th e-vals:    -1.900201211774709686e-01
+14th e-vals:    -1.899704778954807161e-01
+15th e-vals:    -1.899510692261568157e-01
+16th e-vals:    -1.894482799353341129e-01
+17th e-vals:    -1.893994260715293199e-01
+18th e-vals:    -1.893343575084977803e-01
+19th e-vals:    -1.892718447483799915e-01
+20th e-vals:    -1.323309094250480766e-01
+21th e-vals:    -1.322981767743498516e-01
+22th e-vals:    -1.318278992084664647e-01
+23th e-vals:    -1.313962273446650231e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.855409188366933804e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999877369206e-01
+Occupancy Factor 11     9.999999999870874401e-01
+Occupancy Factor 12     9.999999999867859035e-01
+Occupancy Factor 13     9.442145629293269282e-01
+Occupancy Factor 14     9.425399489235395389e-01
+Occupancy Factor 15     9.418724876343264052e-01
+Occupancy Factor 16     9.218458024662505856e-01
+Occupancy Factor 17     9.195937834277229106e-01
+Occupancy Factor 18     9.165023759767207956e-01
+Occupancy Factor 19     9.134310386804931348e-01
+Occupancy Factor 20     2.544644321790373743e-15
+Occupancy Factor 21     2.492580642778022834e-15
+Occupancy Factor 22     1.852090023475813527e-15
+Occupancy Factor 23     1.410144731050872190e-15
+=====energy output in Hartree====
+band energy: -1.0739652262820986e+01
+ground state energy : -2.6759269906498481e+01
+ground state energy per atom : -2.0584053774229600e+00
+=====error computation=====
+square L2 diff norm: 2.742239026612010647e-02
+relative error: 4.279035659122502064e-04
+charge out: 3.899964509961666437e+01
+====================================
+        End of SCF 5
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+       Entering SCF 6
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.313962273446650231e-01.
+lowerBoundWantedSpectrum is -4.755749413320007335e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.725014885147594823e-01
+1th e-vals:     -3.942137414978024168e-01
+2th e-vals:     -3.940042966603395924e-01
+3th e-vals:     -3.938806930179413746e-01
+4th e-vals:     -3.027906750494465116e-01
+5th e-vals:     -3.027637447133733617e-01
+6th e-vals:     -3.026677944098076223e-01
+7th e-vals:     -3.025344035281335442e-01
+8th e-vals:     -3.024797047202658073e-01
+9th e-vals:     -2.735124575394923263e-01
+10th e-vals:    -2.242521882533229094e-01
+11th e-vals:    -2.241537257106011594e-01
+12th e-vals:    -2.239808374256481716e-01
+13th e-vals:    -1.881372508691405154e-01
+14th e-vals:    -1.880547157119311918e-01
+15th e-vals:    -1.880132764342404283e-01
+16th e-vals:    -1.879778631095321006e-01
+17th e-vals:    -1.878626910045301246e-01
+18th e-vals:    -1.878353967861444429e-01
+19th e-vals:    -1.877236512689048897e-01
+20th e-vals:    -1.312117958856396371e-01
+21th e-vals:    -1.311030801094663079e-01
+22th e-vals:    -1.306538758734803740e-01
+23th e-vals:    -1.301463677967930610e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.838774402731297442e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999915654136e-01
+Occupancy Factor 11     9.999999999910242909e-01
+Occupancy Factor 12     9.999999999899886749e-01
+Occupancy Factor 13     9.364508673680291828e-01
+Occupancy Factor 14     9.332773920044608040e-01
+Occupancy Factor 15     9.316291105113182480e-01
+Occupancy Factor 16     9.301906984102971121e-01
+Occupancy Factor 17     9.253171044691735903e-01
+Occupancy Factor 18     9.241171214324022110e-01
+Occupancy Factor 19     9.190177058317210435e-01
+Occupancy Factor 20     3.588680754688468999e-15
+Occupancy Factor 21     3.350552308345129527e-15
+Occupancy Factor 22     2.522953479299600251e-15
+Occupancy Factor 23     1.831093750579810453e-15
+=====energy output in Hartree====
+band energy: -1.0670747970936421e+01
+ground state energy : -2.6756184777479419e+01
+ground state energy per atom : -2.0581680598061092e+00
+=====error computation=====
+square L2 diff norm: 1.272112073697382814e-02
+relative error: 1.152919728319391285e-04
+charge out: 3.899964483363601175e+01
+====================================
+        End of SCF 6
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+       Entering SCF 7
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.301463677967930610e-01.
+lowerBoundWantedSpectrum is -4.725014885147594823e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.714036049790134020e-01
+1th e-vals:     -3.931377004755672311e-01
+2th e-vals:     -3.930497087155060409e-01
+3th e-vals:     -3.929599048185055121e-01
+4th e-vals:     -3.018387562503532795e-01
+5th e-vals:     -3.018090636649460312e-01
+6th e-vals:     -3.017568564509048312e-01
+7th e-vals:     -3.016842522861629683e-01
+8th e-vals:     -3.016711203888558512e-01
+9th e-vals:     -2.726362056716808979e-01
+10th e-vals:    -2.234814192696903123e-01
+11th e-vals:    -2.234082993535123074e-01
+12th e-vals:    -2.233229946249551678e-01
+13th e-vals:    -1.871764842462038392e-01
+14th e-vals:    -1.871679703874948864e-01
+15th e-vals:    -1.871218490767613263e-01
+16th e-vals:    -1.871091324964540836e-01
+17th e-vals:    -1.870664406148929981e-01
+18th e-vals:    -1.870428870205902427e-01
+19th e-vals:    -1.869843489545793824e-01
+20th e-vals:    -1.305450482591717365e-01
+21th e-vals:    -1.304766655098723582e-01
+22th e-vals:    -1.300818547694020666e-01
+23th e-vals:    -1.296282255419430318e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.830331206055131055e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999919482185e-01
+Occupancy Factor 11     9.999999999915676341e-01
+Occupancy Factor 12     9.999999999911008963e-01
+Occupancy Factor 13     9.319313008685213839e-01
+Occupancy Factor 14     9.315894203629317971e-01
+Occupancy Factor 15     9.297095824240990680e-01
+Occupancy Factor 16     9.291829342422668336e-01
+Occupancy Factor 17     9.273881161682593355e-01
+Occupancy Factor 18     9.263800338401458889e-01
+Occupancy Factor 19     9.238186121191477307e-01
+Occupancy Factor 20     4.014570200876052948e-15
+Occupancy Factor 21     3.844882959271481955e-15
+Occupancy Factor 22     2.996366564452711222e-15
+Occupancy Factor 23     2.249956395357606661e-15
+=====energy output in Hartree====
+band energy: -1.0636564826149126e+01
+ground state energy : -2.6752719447012481e+01
+ground state energy per atom : -2.0579014959240371e+00
+=====error computation=====
+square L2 diff norm: 1.498767292843243212e-02
+relative error: 1.295151194296729341e-04
+charge out: 3.899964515497572393e+01
+====================================
+        End of SCF 7
+====================================
+====================================
+       Entering SCF 8
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.296282255419430318e-01.
+lowerBoundWantedSpectrum is -4.714036049790134020e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.715526134706862216e-01
+1th e-vals:     -3.931916964881413401e-01
+2th e-vals:     -3.931385002935698925e-01
+3th e-vals:     -3.930855793234184214e-01
+4th e-vals:     -3.018295058043388157e-01
+5th e-vals:     -3.018258816554854063e-01
+6th e-vals:     -3.017734599234560000e-01
+7th e-vals:     -3.017445566358841202e-01
+8th e-vals:     -3.017328211503966795e-01
+9th e-vals:     -2.726793699245283475e-01
+10th e-vals:    -2.234101849172150656e-01
+11th e-vals:    -2.233542647392864067e-01
+12th e-vals:    -2.233350123433088807e-01
+13th e-vals:    -1.871804351289046986e-01
+14th e-vals:    -1.871429753269588936e-01
+15th e-vals:    -1.871313940677315213e-01
+16th e-vals:    -1.871228871216702172e-01
+17th e-vals:    -1.870972021870249691e-01
+18th e-vals:    -1.870667782675614343e-01
+19th e-vals:    -1.870615391141588757e-01
+20th e-vals:    -1.305149819174319104e-01
+21th e-vals:    -1.304877983285061549e-01
+22th e-vals:    -1.301408832587784281e-01
+23th e-vals:    -1.298035420098287152e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.830529679952087319e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999914714888e-01
+Occupancy Factor 11     9.999999999911648452e-01
+Occupancy Factor 12     9.999999999910567094e-01
+Occupancy Factor 13     9.312916771929785620e-01
+Occupancy Factor 14     9.297623447184731882e-01
+Occupancy Factor 15     9.292831953962570335e-01
+Occupancy Factor 16     9.289293170992855009e-01
+Occupancy Factor 17     9.278509115321484924e-01
+Occupancy Factor 18     9.265540203256378282e-01
+Occupancy Factor 19     9.263285337615150272e-01
+Occupancy Factor 20     3.889992666524562290e-15
+Occupancy Factor 21     3.823780048177661075e-15
+Occupancy Factor 22     3.071436096056911879e-15
+Occupancy Factor 23     2.482081057529691246e-15
+=====energy output in Hartree====
+band energy: -1.0637799482948886e+01
+ground state energy : -2.6751867271993046e+01
+ground state energy per atom : -2.0578359439994651e+00
+=====error computation=====
+square L2 diff norm: 3.683218205642952575e-03
+relative error: 3.185377176788760205e-05
+charge out: 3.899964504163281021e+01
+====================================
+        End of SCF 8
+====================================
+====================================
+       Entering SCF 9
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.298035420098287152e-01.
+lowerBoundWantedSpectrum is -4.715526134706862216e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.714915467912822455e-01
+1th e-vals:     -3.931078614810203375e-01
+2th e-vals:     -3.931040828498288398e-01
+3th e-vals:     -3.930835781806738538e-01
+4th e-vals:     -3.017680520809231659e-01
+5th e-vals:     -3.017541541601363453e-01
+6th e-vals:     -3.017464862864294162e-01
+7th e-vals:     -3.017385530001495675e-01
+8th e-vals:     -3.017347162161159169e-01
+9th e-vals:     -2.726105743728554076e-01
+10th e-vals:    -2.233479992177041518e-01
+11th e-vals:    -2.233271681142478815e-01
+12th e-vals:    -2.233141990238931562e-01
+13th e-vals:    -1.871011697833261100e-01
+14th e-vals:    -1.870979870818639257e-01
+15th e-vals:    -1.870960092640274741e-01
+16th e-vals:    -1.870951712715161752e-01
+17th e-vals:    -1.870565540686865424e-01
+18th e-vals:    -1.870434142705293123e-01
+19th e-vals:    -1.870303205722266271e-01
+20th e-vals:    -1.305235918139633078e-01
+21th e-vals:    -1.304874758290360537e-01
+22th e-vals:    -1.301731996568680771e-01
+23th e-vals:    -1.298341105084837299e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.830128108009403398e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913520288e-01
+Occupancy Factor 11     9.999999999912374538e-01
+Occupancy Factor 12     9.999999999911652893e-01
+Occupancy Factor 13     9.296943315012963227e-01
+Occupancy Factor 14     9.295628364717575254e-01
+Occupancy Factor 15     9.294810073811227147e-01
+Occupancy Factor 16     9.294463102742501759e-01
+Occupancy Factor 17     9.278301533759319986e-01
+Occupancy Factor 18     9.272725018704460753e-01
+Occupancy Factor 19     9.267128591514203206e-01
+Occupancy Factor 20     4.011664058165355117e-15
+Occupancy Factor 21     3.921197450795689642e-15
+Occupancy Factor 22     3.215284800712147317e-15
+Occupancy Factor 23     2.595461028562540800e-15
+=====energy output in Hartree====
+band energy: -1.0636225274332782e+01
+ground state energy : -2.6751861962576761e+01
+ground state energy per atom : -2.0578355355828277e+00
+=====error computation=====
+square L2 diff norm: 1.821990835207592217e-03
+relative error: 1.984689977122922310e-07
+charge out: 3.899964518132730973e+01
+====================================
+        End of SCF 9
+====================================
+====================================
+       Entering SCF 10
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.298341105084837299e-01.
+lowerBoundWantedSpectrum is -4.714915467912822455e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.714635713233598091e-01
+1th e-vals:     -3.931035908381963484e-01
+2th e-vals:     -3.930933124181250626e-01
+3th e-vals:     -3.930795127084273921e-01
+4th e-vals:     -3.017588600049860847e-01
+5th e-vals:     -3.017543656346808878e-01
+6th e-vals:     -3.017507008757782105e-01
+7th e-vals:     -3.017375357981740280e-01
+8th e-vals:     -3.017301315760143043e-01
+9th e-vals:     -2.725631063237483609e-01
+10th e-vals:    -2.233269571232754935e-01
+11th e-vals:    -2.233212467103107834e-01
+12th e-vals:    -2.233040417905356456e-01
+13th e-vals:    -1.871102808602283507e-01
+14th e-vals:    -1.871004987389087715e-01
+15th e-vals:    -1.870977922895750711e-01
+16th e-vals:    -1.870863928680400745e-01
+17th e-vals:    -1.870120126466914556e-01
+18th e-vals:    -1.870059217534860985e-01
+19th e-vals:    -1.870028181415990531e-01
+20th e-vals:    -1.305307796980771373e-01
+21th e-vals:    -1.305021815120695206e-01
+22th e-vals:    -1.302120729462903359e-01
+23th e-vals:    -1.299113099245583214e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829974600532102702e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913209425e-01
+Occupancy Factor 11     9.999999999912894122e-01
+Occupancy Factor 12     9.999999999911943771e-01
+Occupancy Factor 13     9.306974335993045688e-01
+Occupancy Factor 14     9.302978989961150358e-01
+Occupancy Factor 15     9.301869827829951642e-01
+Occupancy Factor 16     9.297180155413723446e-01
+Occupancy Factor 17     9.265859174506133611e-01
+Occupancy Factor 18     9.263238177333441570e-01
+Occupancy Factor 19     9.261899339224405336e-01
+Occupancy Factor 20     4.069175532233996106e-15
+Occupancy Factor 21     3.996341111745350383e-15
+Occupancy Factor 22     3.327299897710244712e-15
+Occupancy Factor 23     2.751687126733417784e-15
+=====energy output in Hartree====
+band energy: -1.0635747154938906e+01
+ground state energy : -2.6751871789948012e+01
+ground state energy per atom : -2.0578362915344623e+00
+=====error computation=====
+square L2 diff norm: 1.165489646820465916e-03
+relative error: 3.673527945359366860e-07
+charge out: 3.899964515629534390e+01
+====================================
+        End of SCF 10
+====================================
+====================================
+       Entering SCF 11
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.299113099245583214e-01.
+lowerBoundWantedSpectrum is -4.714635713233598091e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.714464812860837961e-01
+1th e-vals:     -3.930903711581780202e-01
+2th e-vals:     -3.930821249554256602e-01
+3th e-vals:     -3.930625821975075040e-01
+4th e-vals:     -3.017465943792440597e-01
+5th e-vals:     -3.017430832422297593e-01
+6th e-vals:     -3.017331049042749069e-01
+7th e-vals:     -3.017204890928041894e-01
+8th e-vals:     -3.017178815369480627e-01
+9th e-vals:     -2.725400795276057830e-01
+10th e-vals:    -2.233107673090193868e-01
+11th e-vals:    -2.232989775098616902e-01
+12th e-vals:    -2.232899224035652108e-01
+13th e-vals:    -1.871001900001767193e-01
+14th e-vals:    -1.870899456773704450e-01
+15th e-vals:    -1.870831868225252270e-01
+16th e-vals:    -1.870671692186648138e-01
+17th e-vals:    -1.869966271950764813e-01
+18th e-vals:    -1.869836411901859008e-01
+19th e-vals:    -1.869785803162254678e-01
+20th e-vals:    -1.305369834533860740e-01
+21th e-vals:    -1.305096886880376950e-01
+22th e-vals:    -1.302378204404592010e-01
+23th e-vals:    -1.299711251329278561e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829807298522261594e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913238291e-01
+Occupancy Factor 11     9.999999999912589921e-01
+Occupancy Factor 12     9.999999999912088100e-01
+Occupancy Factor 13     9.309673979109384101e-01
+Occupancy Factor 14     9.305504412966794092e-01
+Occupancy Factor 15     9.302740727887339744e-01
+Occupancy Factor 16     9.296150487139481777e-01
+Occupancy Factor 17     9.266436681003243914e-01
+Occupancy Factor 18     9.260842280448491337e-01
+Occupancy Factor 19     9.258651431707154433e-01
+Occupancy Factor 20     4.128542127327976890e-15
+Occupancy Factor 21     4.057984158838951920e-15
+Occupancy Factor 22     3.417768747586678998e-15
+Occupancy Factor 23     2.887977653582089646e-15
+=====energy output in Hartree====
+band energy: -1.0635122306826663e+01
+ground state energy : -2.6751860437600811e+01
+ground state energy per atom : -2.0578354182769854e+00
+=====error computation=====
+square L2 diff norm: 8.145188622769937003e-04
+relative error: 4.243571175165512840e-07
+charge out: 3.899964520473949392e+01
+====================================
+        End of SCF 11
+====================================
+====================================
+       Entering SCF 12
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.299711251329278561e-01.
+lowerBoundWantedSpectrum is -4.714464812860837961e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.714257971582846984e-01
+1th e-vals:     -3.930756030568436921e-01
+2th e-vals:     -3.930690799109243239e-01
+3th e-vals:     -3.930437919413618530e-01
+4th e-vals:     -3.017424467220615747e-01
+5th e-vals:     -3.017281567316580926e-01
+6th e-vals:     -3.017136787766159789e-01
+7th e-vals:     -3.017060029319520442e-01
+8th e-vals:     -3.017033564068207774e-01
+9th e-vals:     -2.725181854800041714e-01
+10th e-vals:    -2.233077485863386447e-01
+11th e-vals:    -2.232819880704303428e-01
+12th e-vals:    -2.232683450467024544e-01
+13th e-vals:    -1.870800502776998608e-01
+14th e-vals:    -1.870739884108816864e-01
+15th e-vals:    -1.870728441106767614e-01
+16th e-vals:    -1.870642366414307090e-01
+17th e-vals:    -1.869820431018482942e-01
+18th e-vals:    -1.869674581430801341e-01
+19th e-vals:    -1.869515287886403532e-01
+20th e-vals:    -1.305480469407473421e-01
+21th e-vals:    -1.305181055503484844e-01
+22th e-vals:    -1.302643983989187626e-01
+23th e-vals:    -1.300043408808420065e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829653280092949363e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913913307e-01
+Occupancy Factor 11     9.999999999912501103e-01
+Occupancy Factor 12     9.999999999911743931e-01
+Occupancy Factor 13     9.307748492058293133e-01
+Occupancy Factor 14     9.305277683958381729e-01
+Occupancy Factor 15     9.304810354151890062e-01
+Occupancy Factor 16     9.301285748680503396e-01
+Occupancy Factor 17     9.266787661403425025e-01
+Occupancy Factor 18     9.260504486979086458e-01
+Occupancy Factor 19     9.253585573030165268e-01
+Occupancy Factor 20     4.198127238359697801e-15
+Occupancy Factor 21     4.119488655125051469e-15
+Occupancy Factor 22     3.509593686519116177e-15
+Occupancy Factor 23     2.978026779110464453e-15
+=====energy output in Hartree====
+band energy: -1.0634526874693409e+01
+ground state energy : -2.6751856507760120e+01
+ground state energy per atom : -2.0578351159815478e+00
+=====error computation=====
+square L2 diff norm: 4.262669255188960204e-04
+relative error: 1.468997156385572248e-07
+charge out: 3.899964519755519632e+01
+====================================
+        End of SCF 12
+====================================
+====================================
+       Entering SCF 13
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.300043408808420065e-01.
+lowerBoundWantedSpectrum is -4.714257971582846984e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713852121171111520e-01
+1th e-vals:     -3.930371056267530361e-01
+2th e-vals:     -3.930293634026041927e-01
+3th e-vals:     -3.930209286355892395e-01
+4th e-vals:     -3.017004786486794377e-01
+5th e-vals:     -3.016971743712759668e-01
+6th e-vals:     -3.016925660559317546e-01
+7th e-vals:     -3.016852294720103744e-01
+8th e-vals:     -3.016770019882671905e-01
+9th e-vals:     -2.724850563084698640e-01
+10th e-vals:    -2.232716194051940495e-01
+11th e-vals:    -2.232658520401118452e-01
+12th e-vals:    -2.232515063180120496e-01
+13th e-vals:    -1.870534605448372634e-01
+14th e-vals:    -1.870502022749539750e-01
+15th e-vals:    -1.870453170236667240e-01
+16th e-vals:    -1.870376300802516212e-01
+17th e-vals:    -1.869422836443402347e-01
+18th e-vals:    -1.869362248739006582e-01
+19th e-vals:    -1.869329852656467228e-01
+20th e-vals:    -1.305387801361208300e-01
+21th e-vals:    -1.305142050726121328e-01
+22th e-vals:    -1.302743561839416753e-01
+23th e-vals:    -1.300450934031267269e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829375701333617044e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913458115e-01
+Occupancy Factor 11     9.999999999913142812e-01
+Occupancy Factor 12     9.999999999912352333e-01
+Occupancy Factor 13     9.308223689793901912e-01
+Occupancy Factor 14     9.306897479558458031e-01
+Occupancy Factor 15     9.304904631275641158e-01
+Occupancy Factor 16     9.301758147306748992e-01
+Occupancy Factor 17     9.261621000346336174e-01
+Occupancy Factor 18     9.259000001249958478e-01
+Occupancy Factor 19     9.257595050729917618e-01
+Occupancy Factor 20     4.247440506332318381e-15
+Occupancy Factor 21     4.182027532175172212e-15
+Occupancy Factor 22     3.594193406065622807e-15
+Occupancy Factor 23     3.109707510710952068e-15
+=====energy output in Hartree====
+band energy: -1.0633396410867684e+01
+ground state energy : -2.6751855353582805e+01
+ground state energy per atom : -2.0578350271986774e+00
+=====error computation=====
+square L2 diff norm: 2.580804491818731701e-04
+relative error: 4.314382125831254229e-08
+charge out: 3.899964521275295226e+01
+====================================
+        End of SCF 13
+====================================
+====================================
+       Entering SCF 14
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.300450934031267269e-01.
+lowerBoundWantedSpectrum is -4.713852121171111520e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713833398555792309e-01
+1th e-vals:     -3.930355352648794431e-01
+2th e-vals:     -3.930254464594155617e-01
+3th e-vals:     -3.930194381648611235e-01
+4th e-vals:     -3.016996568736202700e-01
+5th e-vals:     -3.016934691682768288e-01
+6th e-vals:     -3.016881666244070059e-01
+7th e-vals:     -3.016837346087898886e-01
+8th e-vals:     -3.016736297843363168e-01
+9th e-vals:     -2.724824678298781166e-01
+10th e-vals:    -2.232704548641697706e-01
+11th e-vals:    -2.232618460699260787e-01
+12th e-vals:    -2.232470961791407638e-01
+13th e-vals:    -1.870485379069530829e-01
+14th e-vals:    -1.870462063468735781e-01
+15th e-vals:    -1.870428476750127522e-01
+16th e-vals:    -1.870373856876513530e-01
+17th e-vals:    -1.869396902468197230e-01
+18th e-vals:    -1.869347151305545962e-01
+19th e-vals:    -1.869292525703368235e-01
+20th e-vals:    -1.305514338319127554e-01
+21th e-vals:    -1.305282978565435459e-01
+22th e-vals:    -1.303014280944705117e-01
+23th e-vals:    -1.300871028581439826e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829347956019614085e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913544713e-01
+Occupancy Factor 11     9.999999999913073978e-01
+Occupancy Factor 12     9.999999999912261295e-01
+Occupancy Factor 13     9.307349612307074249e-01
+Occupancy Factor 14     9.306399729614087679e-01
+Occupancy Factor 15     9.305029280062471209e-01
+Occupancy Factor 16     9.302795256640771226e-01
+Occupancy Factor 17     9.261699226621409320e-01
+Occupancy Factor 18     9.259547849266894781e-01
+Occupancy Factor 19     9.257179045748266111e-01
+Occupancy Factor 20     4.289028565882127597e-15
+Occupancy Factor 21     4.226814934078331645e-15
+Occupancy Factor 22     3.662584783637139814e-15
+Occupancy Factor 23     3.198916004456109053e-15
+=====energy output in Hartree====
+band energy: -1.0633290616188980e+01
+ground state energy : -2.6751855006771297e+01
+ground state energy per atom : -2.0578350005208690e+00
+=====error computation=====
+square L2 diff norm: 9.901777540286202666e-05
+relative error: 1.296401699726629706e-08
+charge out: 3.899964520738274132e+01
+====================================
+        End of SCF 14
+====================================
+====================================
+       Entering SCF 15
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.300871028581439826e-01.
+lowerBoundWantedSpectrum is -4.713833398555792309e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713827750085676227e-01
+1th e-vals:     -3.930322497257026648e-01
+2th e-vals:     -3.930240344256355489e-01
+3th e-vals:     -3.930185049900673522e-01
+4th e-vals:     -3.016969637712255681e-01
+5th e-vals:     -3.016898452632957861e-01
+6th e-vals:     -3.016844636340227925e-01
+7th e-vals:     -3.016821819049050890e-01
+8th e-vals:     -3.016721748352496624e-01
+9th e-vals:     -2.724815758309237501e-01
+10th e-vals:    -2.232676434354094464e-01
+11th e-vals:    -2.232577564414977844e-01
+12th e-vals:    -2.232450755372139550e-01
+13th e-vals:    -1.870445774915156512e-01
+14th e-vals:    -1.870443872591388557e-01
+15th e-vals:    -1.870401128563737303e-01
+16th e-vals:    -1.870345815045562077e-01
+17th e-vals:    -1.869392765223465425e-01
+18th e-vals:    -1.869322627083618571e-01
+19th e-vals:    -1.869279599118973401e-01
+20th e-vals:    -1.305631432576458695e-01
+21th e-vals:    -1.305402068500058355e-01
+22th e-vals:    -1.303243236692396279e-01
+23th e-vals:    -1.301255092472601294e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829326051065716663e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913511406e-01
+Occupancy Factor 11     9.999999999912969617e-01
+Occupancy Factor 12     9.999999999912270177e-01
+Occupancy Factor 13     9.306628653160756715e-01
+Occupancy Factor 14     9.306551122591486536e-01
+Occupancy Factor 15     9.304806942315222429e-01
+Occupancy Factor 16     9.302543835706122977e-01
+Occupancy Factor 17     9.262466156299034026e-01
+Occupancy Factor 18     9.259434425226311660e-01
+Occupancy Factor 19     9.257568864962194555e-01
+Occupancy Factor 20     4.326845532247484941e-15
+Occupancy Factor 21     4.264620820332747953e-15
+Occupancy Factor 22     3.721073614583465346e-15
+Occupancy Factor 23     3.281993359385953921e-15
+=====energy output in Hartree====
+band energy: -1.0633203754117403e+01
+ground state energy : -2.6751854988154861e+01
+ground state energy per atom : -2.0578349990888354e+00
+=====error computation=====
+square L2 diff norm: 9.316669064238938358e-05
+relative error: 6.958932899321161173e-10
+charge out: 3.899964521293888708e+01
+====================================
+        End of SCF 15
+====================================
+====================================
+       Entering SCF 16
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.301255092472601294e-01.
+lowerBoundWantedSpectrum is -4.713827750085676227e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713881816168108974e-01
+1th e-vals:     -3.930376588662173876e-01
+2th e-vals:     -3.930271026244024912e-01
+3th e-vals:     -3.930207826285342931e-01
+4th e-vals:     -3.016998765411529337e-01
+5th e-vals:     -3.016929487425345502e-01
+6th e-vals:     -3.016879604961176797e-01
+7th e-vals:     -3.016833063026873596e-01
+8th e-vals:     -3.016728876545463622e-01
+9th e-vals:     -2.724854737757449463e-01
+10th e-vals:    -2.232691862276315331e-01
+11th e-vals:    -2.232598583708012563e-01
+12th e-vals:    -2.232447998773784692e-01
+13th e-vals:    -1.870473069654424170e-01
+14th e-vals:    -1.870447825944222819e-01
+15th e-vals:    -1.870418278751261043e-01
+16th e-vals:    -1.870369878159712507e-01
+17th e-vals:    -1.869413713777215991e-01
+18th e-vals:    -1.869367956966596078e-01
+19th e-vals:    -1.869306571757229085e-01
+20th e-vals:    -1.305756220392395028e-01
+21th e-vals:    -1.305550846867008785e-01
+22th e-vals:    -1.303498508825557400e-01
+23th e-vals:    -1.301631457878153764e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829349914702667890e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913464777e-01
+Occupancy Factor 11     9.999999999912954074e-01
+Occupancy Factor 12     9.999999999912121407e-01
+Occupancy Factor 13     9.306768469912592989e-01
+Occupancy Factor 14     9.305739183124946967e-01
+Occupancy Factor 15     9.304532629830137846e-01
+Occupancy Factor 16     9.302552009380683495e-01
+Occupancy Factor 17     9.262340379245945776e-01
+Occupancy Factor 18     9.260363522309493778e-01
+Occupancy Factor 19     9.257703806457555640e-01
+Occupancy Factor 20     4.354512350122812432e-15
+Occupancy Factor 21     4.298397430948510833e-15
+Occupancy Factor 22     3.775854965796631091e-15
+Occupancy Factor 23     3.355877282073173504e-15
+=====energy output in Hartree====
+band energy: -1.0633304045771201e+01
+ground state energy : -2.6751854965835413e+01
+ground state energy per atom : -2.0578349973719550e+00
+=====error computation=====
+square L2 diff norm: 3.883335029819802680e-05
+relative error: 8.343140179742209341e-10
+charge out: 3.899964521024548247e+01
+====================================
+        End of SCF 16
+====================================
+====================================
+       Entering SCF 17
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.301631457878153764e-01.
+lowerBoundWantedSpectrum is -4.713881816168108974e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713887656196868448e-01
+1th e-vals:     -3.930366020980324837e-01
+2th e-vals:     -3.930278059607265617e-01
+3th e-vals:     -3.930221302708432618e-01
+4th e-vals:     -3.016993766790513898e-01
+5th e-vals:     -3.016925379270447571e-01
+6th e-vals:     -3.016873098275931753e-01
+7th e-vals:     -3.016842625277448287e-01
+8th e-vals:     -3.016742378985141082e-01
+9th e-vals:     -2.724858545140403376e-01
+10th e-vals:    -2.232686140244055928e-01
+11th e-vals:    -2.232591958407878774e-01
+12th e-vals:    -2.232459148532095761e-01
+13th e-vals:    -1.870468587461048549e-01
+14th e-vals:    -1.870460481763694949e-01
+15th e-vals:    -1.870419619564515357e-01
+16th e-vals:    -1.870364593940251896e-01
+17th e-vals:    -1.869423012482846758e-01
+18th e-vals:    -1.869359192693078875e-01
+19th e-vals:    -1.869313316756637533e-01
+20th e-vals:    -1.305870600012895844e-01
+21th e-vals:    -1.305666238390527090e-01
+22th e-vals:    -1.303700889084656034e-01
+23th e-vals:    -1.301960767523558105e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829351573756038407e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913424809e-01
+Occupancy Factor 11     9.999999999912909665e-01
+Occupancy Factor 12     9.999999999912174697e-01
+Occupancy Factor 13     9.306518196854266511e-01
+Occupancy Factor 14     9.306187738891384953e-01
+Occupancy Factor 15     9.304519624008447121e-01
+Occupancy Factor 16     9.302267453283731280e-01
+Occupancy Factor 17     9.262669965293691687e-01
+Occupancy Factor 18     9.259912516321465725e-01
+Occupancy Factor 19     9.257924505608323695e-01
+Occupancy Factor 20     4.385622151868531503e-15
+Occupancy Factor 21     4.329383000617466287e-15
+Occupancy Factor 22     3.824024443683942713e-15
+Occupancy Factor 23     3.426043157436264552e-15
+=====energy output in Hartree====
+band energy: -1.0633311348683854e+01
+ground state energy : -2.6751854962168316e+01
+ground state energy per atom : -2.0578349970898704e+00
+=====error computation=====
+square L2 diff norm: 2.285451985647203655e-05
+relative error: 1.370782270271120570e-10
+charge out: 3.899964521226915792e+01
+====================================
+        End of SCF 17
+====================================
+====================================
+       Entering SCF 18
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.301960767523558105e-01.
+lowerBoundWantedSpectrum is -4.713887656196868448e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713891082578717251e-01
+1th e-vals:     -3.930373525584370809e-01
+2th e-vals:     -3.930279229220249304e-01
+3th e-vals:     -3.930220389524917146e-01
+4th e-vals:     -3.016997740485778956e-01
+5th e-vals:     -3.016929216692273430e-01
+6th e-vals:     -3.016877787095790242e-01
+7th e-vals:     -3.016841642999639750e-01
+8th e-vals:     -3.016740228859041140e-01
+9th e-vals:     -2.724860938580113690e-01
+10th e-vals:    -2.232688565471545872e-01
+11th e-vals:    -2.232594997569711803e-01
+12th e-vals:    -2.232456348799226609e-01
+13th e-vals:    -1.870472471453942798e-01
+14th e-vals:    -1.870458326629352019e-01
+15th e-vals:    -1.870421310880939492e-01
+16th e-vals:    -1.870368270953653711e-01
+17th e-vals:    -1.869422221501493286e-01
+18th e-vals:    -1.869364688369863081e-01
+19th e-vals:    -1.869313828854934356e-01
+20th e-vals:    -1.305966594411362425e-01
+21th e-vals:    -1.305774039424301425e-01
+22th e-vals:    -1.303893276542178736e-01
+23th e-vals:    -1.302252222871125298e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829353334281197674e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913429249e-01
+Occupancy Factor 11     9.999999999912916326e-01
+Occupancy Factor 12     9.999999999912150273e-01
+Occupancy Factor 13     9.306604743586962547e-01
+Occupancy Factor 14     9.306028050723075262e-01
+Occupancy Factor 15     9.304516795559411024e-01
+Occupancy Factor 16     9.302346007434882935e-01
+Occupancy Factor 17     9.262559904555934809e-01
+Occupancy Factor 18     9.260074161341736998e-01
+Occupancy Factor 19     9.257870337059399546e-01
+Occupancy Factor 20     4.411800305034915344e-15
+Occupancy Factor 21     4.358474134296551476e-15
+Occupancy Factor 22     3.870340287318235445e-15
+Occupancy Factor 23     3.489301858220431738e-15
+=====energy output in Hartree====
+band energy: -1.0633318757876227e+01
+ground state energy : -2.6751854962639111e+01
+ground state energy per atom : -2.0578349971260854e+00
+=====error computation=====
+square L2 diff norm: 1.029904744542590007e-05
+relative error: 1.759859117206602380e-11
+charge out: 3.899964521137138718e+01
+====================================
+        End of SCF 18
+====================================
+====================================
+       Entering SCF 19
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.302252222871125298e-01.
+lowerBoundWantedSpectrum is -4.713891082578717251e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713896302036837405e-01
+1th e-vals:     -3.930376604934706086e-01
+2th e-vals:     -3.930283314788740046e-01
+3th e-vals:     -3.930225554660184417e-01
+4th e-vals:     -3.017000497047302998e-01
+5th e-vals:     -3.016932619600628529e-01
+6th e-vals:     -3.016880744786806789e-01
+7th e-vals:     -3.016845550782129015e-01
+8th e-vals:     -3.016744564032218801e-01
+9th e-vals:     -2.724865791360721046e-01
+10th e-vals:    -2.232690994092408621e-01
+11th e-vals:    -2.232597906237402952e-01
+12th e-vals:    -2.232459842539368799e-01
+13th e-vals:    -1.870475609980249976e-01
+14th e-vals:    -1.870462316425574867e-01
+15th e-vals:    -1.870424723869931194e-01
+16th e-vals:    -1.870370960698796714e-01
+17th e-vals:    -1.869426810663951666e-01
+18th e-vals:    -1.869368204180729132e-01
+19th e-vals:    -1.869317987398720349e-01
+20th e-vals:    -1.306058201471529401e-01
+21th e-vals:    -1.305873593846694491e-01
+22th e-vals:    -1.304067510477280589e-01
+23th e-vals:    -1.302517914977449065e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829356986808468866e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913422588e-01
+Occupancy Factor 11     9.999999999912911886e-01
+Occupancy Factor 12     9.999999999912148052e-01
+Occupancy Factor 13     9.306583795231585521e-01
+Occupancy Factor 14     9.306041806541832662e-01
+Occupancy Factor 15     9.304507005935302999e-01
+Occupancy Factor 16     9.302306545375422786e-01
+Occupancy Factor 17     9.262600308623386569e-01
+Occupancy Factor 18     9.260068245280261845e-01
+Occupancy Factor 19     9.257892293273560780e-01
+Occupancy Factor 20     4.436375027741199178e-15
+Occupancy Factor 21     4.384952142391224362e-15
+Occupancy Factor 22     3.912261137290757392e-15
+Occupancy Factor 23     3.547527163824434745e-15
+=====energy output in Hartree====
+band energy: -1.0633333209000986e+01
+ground state energy : -2.6751854961938083e+01
+ground state energy per atom : -2.0578349970721601e+00
+=====error computation=====
+square L2 diff norm: 6.356926098740217521e-06
+relative error: 2.620485829888466701e-11
+charge out: 3.899964521207235890e+01
+====================================
+        End of SCF 19
+====================================
+====================================
+       Entering SCF 20
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.302517914977449065e-01.
+lowerBoundWantedSpectrum is -4.713896302036837405e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713897271254598453e-01
+1th e-vals:     -3.930377199895945806e-01
+2th e-vals:     -3.930284920423652295e-01
+3th e-vals:     -3.930226411652936735e-01
+4th e-vals:     -3.017001846116155739e-01
+5th e-vals:     -3.016933037942317042e-01
+6th e-vals:     -3.016881518364981640e-01
+7th e-vals:     -3.016847000671885048e-01
+8th e-vals:     -3.016745879124587693e-01
+9th e-vals:     -2.724866814970877682e-01
+10th e-vals:    -2.232692313630899317e-01
+11th e-vals:    -2.232598328589783798e-01
+12th e-vals:    -2.232461406829242545e-01
+13th e-vals:    -1.870476160645279939e-01
+14th e-vals:    -1.870463812664838743e-01
+15th e-vals:    -1.870425695586786508e-01
+16th e-vals:    -1.870372193981828801e-01
+17th e-vals:    -1.869427961010864947e-01
+18th e-vals:    -1.869368700924320670e-01
+19th e-vals:    -1.869319361126964563e-01
+20th e-vals:    -1.306139593610942673e-01
+21th e-vals:    -1.305961641457342448e-01
+22th e-vals:    -1.304225847326338228e-01
+23th e-vals:    -1.302757086506353412e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829358025196914650e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913422588e-01
+Occupancy Factor 11     9.999999999912907445e-01
+Occupancy Factor 12     9.999999999912152493e-01
+Occupancy Factor 13     9.306563917288697141e-01
+Occupancy Factor 14     9.306060479997120272e-01
+Occupancy Factor 15     9.304504281129712950e-01
+Occupancy Factor 16     9.302314533789411977e-01
+Occupancy Factor 17     9.262605138091510870e-01
+Occupancy Factor 18     9.260044806522231831e-01
+Occupancy Factor 19     9.257906843442649247e-01
+Occupancy Factor 20     4.458945707087626109e-15
+Occupancy Factor 21     4.409114077940316151e-15
+Occupancy Factor 22     3.951319952621629029e-15
+Occupancy Factor 23     3.601282699806659978e-15
+=====energy output in Hartree====
+band energy: -1.0633337292287660e+01
+ground state energy : -2.6751854961337685e+01
+ground state energy per atom : -2.0578349970259757e+00
+=====error computation=====
+square L2 diff norm: 2.171577482245179978e-06
+relative error: 2.244322699979050093e-11
+charge out: 3.899964521169970055e+01
+====================================
+        End of SCF 20
+====================================
+====================================
+       Entering SCF 21
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.302757086506353412e-01.
+lowerBoundWantedSpectrum is -4.713897271254598453e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713896669030452902e-01
+1th e-vals:     -3.930377014350641685e-01
+2th e-vals:     -3.930283659112385197e-01
+3th e-vals:     -3.930225694343134069e-01
+4th e-vals:     -3.017001053818789136e-01
+5th e-vals:     -3.016932911573638187e-01
+6th e-vals:     -3.016881137969889548e-01
+7th e-vals:     -3.016845907500693702e-01
+8th e-vals:     -3.016744960778999785e-01
+9th e-vals:     -2.724866604541411608e-01
+10th e-vals:    -2.232691743450870570e-01
+11th e-vals:    -2.232598397137448287e-01
+12th e-vals:    -2.232460608852350203e-01
+13th e-vals:    -1.870475940910212020e-01
+14th e-vals:    -1.870462719628151194e-01
+15th e-vals:    -1.870425151516734996e-01
+16th e-vals:    -1.870371456780272335e-01
+17th e-vals:    -1.869427569059276817e-01
+18th e-vals:    -1.869368899594034961e-01
+19th e-vals:    -1.869318773315579163e-01
+20th e-vals:    -1.306212630257838903e-01
+21th e-vals:    -1.306041668306675285e-01
+22th e-vals:    -1.304369109746560673e-01
+23th e-vals:    -1.302972939928963292e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829357548376882581e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913422588e-01
+Occupancy Factor 11     9.999999999912911886e-01
+Occupancy Factor 12     9.999999999912150273e-01
+Occupancy Factor 13     9.306574395260689414e-01
+Occupancy Factor 14     9.306035347479572062e-01
+Occupancy Factor 15     9.304501532674266384e-01
+Occupancy Factor 16     9.302303861152718678e-01
+Occupancy Factor 17     9.262608798978285707e-01
+Occupancy Factor 18     9.260074037084619070e-01
+Occupancy Factor 19     9.257902027631275121e-01
+Occupancy Factor 20     4.479695579475034965e-15
+Occupancy Factor 21     4.431588021895227532e-15
+Occupancy Factor 22     3.987352756380862256e-15
+Occupancy Factor 23     3.650822284437652627e-15
+=====energy output in Hartree====
+band energy: -1.0633335146914835e+01
+ground state energy : -2.6751854961294001e+01
+ground state energy per atom : -2.0578349970226153e+00
+=====error computation=====
+square L2 diff norm: 2.348523064605506015e-06
+relative error: 1.632939751567290938e-12
+charge out: 3.899964521195120426e+01
+====================================
+        End of SCF 21
+====================================
+====================================
+       Entering SCF 22
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.302972939928963292e-01.
+lowerBoundWantedSpectrum is -4.713896669030452902e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713898088063062652e-01
+1th e-vals:     -3.930377754926523415e-01
+2th e-vals:     -3.930284843945275330e-01
+3th e-vals:     -3.930226506605078440e-01
+4th e-vals:     -3.017001746889718672e-01
+5th e-vals:     -3.016933294741246940e-01
+6th e-vals:     -3.016881682509230389e-01
+7th e-vals:     -3.016846665007362760e-01
+8th e-vals:     -3.016745565257933914e-01
+9th e-vals:     -2.724867774093784334e-01
+10th e-vals:    -2.232692219955472179e-01
+11th e-vals:    -2.232598598364635978e-01
+12th e-vals:    -2.232461053872094314e-01
+13th e-vals:    -1.870476295410037904e-01
+14th e-vals:    -1.870463342652939898e-01
+15th e-vals:    -1.870425563315487871e-01
+16th e-vals:    -1.870372036082063871e-01
+17th e-vals:    -1.869428487477536871e-01
+18th e-vals:    -1.869369710044205546e-01
+19th e-vals:    -1.869319878185314032e-01
+20th e-vals:    -1.306280383580945559e-01
+21th e-vals:    -1.306115391343717069e-01
+22th e-vals:    -1.304502491715305301e-01
+23th e-vals:    -1.303171284972798882e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829358240944457259e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913422588e-01
+Occupancy Factor 11     9.999999999912909665e-01
+Occupancy Factor 12     9.999999999912148052e-01
+Occupancy Factor 13     9.306560616655560336e-01
+Occupancy Factor 14     9.306032511110466920e-01
+Occupancy Factor 15     9.304490057764597255e-01
+Occupancy Factor 16     9.302299218515999168e-01
+Occupancy Factor 17     9.262618541196154798e-01
+Occupancy Factor 18     9.260079138125816289e-01
+Occupancy Factor 19     9.257919916892782819e-01
+Occupancy Factor 20     4.498708320286974575e-15
+Occupancy Factor 21     4.452074777398658304e-15
+Occupancy Factor 22     4.020907169690075296e-15
+Occupancy Factor 23     3.696680183863867452e-15
+=====energy output in Hartree====
+band energy: -1.0633337923721161e+01
+ground state energy : -2.6751854961276507e+01
+ground state energy per atom : -2.0578349970212697e+00
+=====error computation=====
+square L2 diff norm: 1.054222052404959416e-06
+relative error: 6.539195947243388630e-13
+charge out: 3.899964521180216082e+01
+====================================
+        End of SCF 22
+====================================
+====================================
+       Entering SCF 23
+====================================
+upperBoundUnWantedSpectrum is 4.827987522378455321e+01.
+lowerBoundUnWantedSpectrum is -1.303171284972798882e-01.
+lowerBoundWantedSpectrum is -4.713898088063062652e-01.
+        k          ||Ax-kx||/||kx||
+----------------- ------------------
+0th e-vals:     -4.713897711706218630e-01
+1th e-vals:     -3.930377546911509312e-01
+2th e-vals:     -3.930284545961524323e-01
+3th e-vals:     -3.930226311028683917e-01
+4th e-vals:     -3.017001573266812064e-01
+5th e-vals:     -3.016933232066341675e-01
+6th e-vals:     -3.016881573368407898e-01
+7th e-vals:     -3.016846497868791999e-01
+8th e-vals:     -3.016745457167905875e-01
+9th e-vals:     -2.724867536693239001e-01
+10th e-vals:    -2.232692154563638565e-01
+11th e-vals:    -2.232598634100345925e-01
+12th e-vals:    -2.232461041370623345e-01
+13th e-vals:    -1.870476249430768068e-01
+14th e-vals:    -1.870463233945780790e-01
+15th e-vals:    -1.870425490791200740e-01
+16th e-vals:    -1.870371890701975348e-01
+17th e-vals:    -1.869428321380050273e-01
+18th e-vals:    -1.869369553513798299e-01
+19th e-vals:    -1.869319679206470353e-01
+20th e-vals:    -1.306342601157679528e-01
+21th e-vals:    -1.306183066201211662e-01
+22th e-vals:    -1.304625098411970607e-01
+23th e-vals:    -1.303352846871697612e-01
+--------------------------------------------
+Projected Eigenvalues of Chebyshev Pass 0
+--------------------------------------------
+the iteration converged at step 0.
+Fermi Energy computation is converged.
+0 :Fermi Energy: -1.829358112013791671e-01
+Occupancy Factor 0      1.000000000000000000e+00
+Occupancy Factor 1      1.000000000000000000e+00
+Occupancy Factor 2      1.000000000000000000e+00
+Occupancy Factor 3      1.000000000000000000e+00
+Occupancy Factor 4      1.000000000000000000e+00
+Occupancy Factor 5      1.000000000000000000e+00
+Occupancy Factor 6      1.000000000000000000e+00
+Occupancy Factor 7      1.000000000000000000e+00
+Occupancy Factor 8      1.000000000000000000e+00
+Occupancy Factor 9      1.000000000000000000e+00
+Occupancy Factor 10     9.999999999913422588e-01
+Occupancy Factor 11     9.999999999912909665e-01
+Occupancy Factor 12     9.999999999912150273e-01
+Occupancy Factor 13     9.306563997523630283e-01
+Occupancy Factor 14     9.306033335946646279e-01
+Occupancy Factor 15     9.304492363084828632e-01
+Occupancy Factor 16     9.302298544270326541e-01
+Occupancy Factor 17     9.262616937989026633e-01
+Occupancy Factor 18     9.260077943826723335e-01
+Occupancy Factor 19     9.257916877620219198e-01
+Occupancy Factor 20     4.516456877475592052e-15
+Occupancy Factor 21     4.471180100607427032e-15
+Occupancy Factor 22     4.052195815079518579e-15
+Occupancy Factor 23     3.739342728756195948e-15
+=====energy output in Hartree====
+band energy: -1.0633337362282404e+01
+ground state energy : -2.6751854961530352e+01
+ground state energy per atom : -2.0578349970407963e+00
+=====error computation=====
+square L2 diff norm: 4.610636760410445906e-07
+relative error: 9.488872656921058608e-12
+charge out: 3.899964521190692324e+01
+====================================
+        End of SCF 23
+====================================
+====================================
+        End of Mem
+====================================
+====================================
+ SCF has converged at 23iterations.
+====================================
